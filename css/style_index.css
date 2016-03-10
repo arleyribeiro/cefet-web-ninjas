@@ -1,8 +1,9 @@
 body {
-	margin: 2% 5% 2% 5%;  
+	margin: 2% 5% 2% 5%;
 	font-family:  "Arial","trebuchet ms";
-	background-color: #CCCCCC;
+	background-color: #FFFFFF;
 	text-align: justify;
+	border: 2px  black;
 }
 h1, h2 {
 	font-family: "Comic Sans";
@@ -12,7 +13,7 @@ h1, h2 {
 img {
 	/*margin: 0 auto;*/
 	display: block;
-	margin-left: auto; 
+	margin-left: auto;
 	margin-right: auto;
 	border: 2px solid black;
 }
@@ -20,7 +21,7 @@ img {
 #logomarca {
 	/*margin: 0 auto;*/
 	display: block;
-	margin-left: auto; 
+	margin-left: auto;
 	margin-right: auto;
 	width: 200px;
 	border: 0;
@@ -29,7 +30,7 @@ img {
 iframe {
 	/*margin: 0 auto;*/
 	display: block;
-	margin-left: auto; 
+	margin-left: auto;
 	margin-right: auto;
 	border: 2px solid black;
 	opacity: 0.60;
@@ -37,19 +38,19 @@ iframe {
 
 /*Estilos dos links*/
 a:link {
-	color: #333333 ;	
+	color: #333333 ;
 }
 
 a:visited {
-	color: #666666 ;	
+	color: #666666 ;
 }
 
 a:hover {
-	color: #FFFFFF ;	
+	color: #000099 ;
 }
 
 a:active {
-	color: #3333FF ;	
+	color: #3333FF ;
 }
 
 a[href^="http"] {
@@ -66,4 +67,3 @@ a[href^="http"] {
 #nota {
 	opacity: 0.60;
 }
-
